@@ -1,0 +1,45 @@
+{
+  "name": "foundryvtt-stage-manager-vn",
+  "version": "1.0.0",
+  "description": "An extension module for Stage Manager that adds support for Visual Novel style dialogues and conversations.",
+  "homepage": "https://github.com/Unarekin/FoundryVTT-Stage-Manager-VN#readme",
+  "bugs": {
+    "url": "https://github.com/Unarekin/FoundryVTT-Stage-Manager-VN/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unarekin/FoundryVTT-Stage-Manager-VN.git"
+  },
+  "license": "MIT",
+  "author": "Unarekin",
+  "type": "commonjs",
+  "main": "dist/module.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@foundryvtt/foundryvtt-cli": "^1.0.4",
+    "@types/eslint__js": "^9.14.0",
+    "@types/node": "^22.15.3",
+    "@types/semver": "^7.7.0",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "deepmerge-ts": "^7.1.5",
+    "esbuild": "^0.25.3",
+    "esbuild-copy-static-files": "^0.1.0",
+    "esbuild-node-externals": "^1.18.0",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-json-merge": "^0.1.0",
+    "esbuild-plugin-noexternal": "^0.1.6",
+    "esbuild-sass-plugin": "^3.3.1",
+    "eslint": "^9.25.1",
+    "foundryvtt-stage-manager": "Unarekin/FoundryVTT-Stage-Manager",
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+    "glob": "^11.0.2",
+    "typescript": "<5.6.0",
+    "typescript-eslint": "^8.31.1",
+    "yocto-spinner": "^0.2.2"
+  }
+}
